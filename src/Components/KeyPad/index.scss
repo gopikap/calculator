@@ -1,0 +1,14 @@
+#keys-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 100%;
+    .eachRow {
+        display: flex;
+        flex: 0 1 25%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .zero {
+        flex:2;
+    }
+}
